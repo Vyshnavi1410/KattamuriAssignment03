@@ -7,7 +7,10 @@ public class Question07 {
 	 * @param a
 	 * @param b
 	 */
-	final Question07(int a, int b) {
+	/**
+	 *If we declare it as final it gives error
+	 */
+	public Question07(int a, int b) {
 		super();
 		this.a = a;
 		this.b = b;
